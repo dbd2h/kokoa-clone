@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  border-style: solid;
+}
+div div {
+  border-color: white;
+}
+.big_square {
+  height: 500px;
+  width: 500px;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.small_square_1 {
+  height: 100px;
+  width: 100px;
+  background-color: teal;
+  margin-top: 50px;
+}
+.rectangle {
+  height: 100px;
+  width: 350px;
+  background-color: teal;
+  border-style: dashed;
+}
+.small_square_2 {
+  height: 100px;
+  width: 100px;
+  background-color: teal;
+  margin-bottom: 50px;
+}
