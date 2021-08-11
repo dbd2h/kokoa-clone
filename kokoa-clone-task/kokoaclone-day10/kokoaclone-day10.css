@@ -1,0 +1,246 @@
+* {
+  box-sizing: content-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.bigface {
+  height: 100vh;
+  width: 40vh;
+  border: solid #00c6ad;
+}
+.trash-bar {
+  height: 5vh;
+  width: 40vh;
+}
+.top-bar {
+  display: flex;
+  height: 10vh;
+  width: 40vh;
+  position: relative;
+  align-items: center;
+}
+.photo-bar {
+  display: flex;
+  height: 15vh;
+  width: 37.5vh;
+  padding-left: 1.5vh;
+  padding-top: 1vh;
+}
+.trash-bar_2 {
+  height: 2vh;
+}
+.tab-bar {
+  height: 9vh;
+  width: 39.5vh;
+  padding: 0.5vh 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.tab-tomato {
+  height: 13vh;
+  width: 39vh;
+  padding-left: 1vh;
+  display: flex;
+  align-items: center;
+}
+.tab-pink {
+  height: 13vh;
+  width: 39vh;
+  padding-left: 1vh;
+  display: flex;
+  align-items: center;
+}
+.tab-blue {
+  height: 13vh;
+  width: 39vh;
+  padding-left: 1vh;
+  display: flex;
+  align-items: center;
+}
+.tab-teal {
+  height: 13vh;
+  width: 39vh;
+  padding-left: 1vh;
+  display: flex;
+  align-items: center;
+}
+.top-bar__x {
+  height: 10vh;
+  width: 15vh;
+  position: relative;
+  bottom: -3vh;
+}
+.top-bar__title {
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.photo-bar__photo {
+  width: 13vh;
+  height: 13vh;
+  background-color: orange;
+  border-radius: 10%;
+  border: solid;
+  position: relative;
+}
+.photo-bar__picture {
+  height: 30vh;
+  width: 30vh;
+  color: white;
+}
+.photo-bar__text {
+  width: 25vh;
+  padding-left: 1vh;
+}
+.photo-bar__text__bigtext {
+  font-size: 3.5vh;
+  font-weight: 900;
+}
+.bigtext2 {
+  position: relative;
+  top: -0.5vh;
+}
+.photo-bar__text__smalltext {
+  font-size: 2vh;
+  font-weight: 700;
+}
+.tab-bar__play {
+  height: 8vh;
+  width: 18vh;
+  border: solid;
+  margin: 0 0.5vh;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0vh 0.5vh black;
+}
+.tab-bar__play_button {
+  height: 8vh;
+  width: 8vh;
+}
+.tab-bar__play__text {
+  position: relative;
+  left: -2.5vh;
+  font-weight: 700;
+  font-size: 2.5vh;
+}
+
+.tab-bar__heart {
+  height: 8vh;
+  width: 8vh;
+  border: solid;
+  border-radius: 50%;
+  box-shadow: 0vh 0.5vh black;
+}
+.tab-bar__plus {
+  height: 8vh;
+  width: 8vh;
+  border: solid;
+  border-radius: 50%;
+  box-shadow: 0vh 0.5vh black;
+}
+.tab-tomato__box {
+  height: 8vh;
+  width: 8vh;
+  background-color: tomato;
+  border-radius: 20%;
+  border: solid;
+}
+.tab-tomato__text {
+  height: 8vh;
+  width: 28vh;
+}
+.tab-bomato__text__bigtext {
+  font-size: 2.5vh;
+  position: relative;
+  right: -1vh;
+  bottom: -0.7vh;
+  font-weight: 900;
+}
+.tab-tomato__text__smalltext {
+  font-size: 1.8vh;
+  position: relative;
+  right: -1vh;
+  bottom: -1.5vh;
+  font-weight: 500;
+}
+.tab-pink__box {
+  height: 8vh;
+  width: 8vh;
+  background-color: pink;
+  border-radius: 20%;
+  border: solid;
+}
+.tab-pink__text {
+  height: 8vh;
+  width: 28vh;
+}
+.tab-pink__text__bigtext {
+  font-size: 2.5vh;
+  position: relative;
+  right: -1vh;
+  bottom: -0.7vh;
+  font-weight: 900;
+}
+.tab-pink__text__smalltext {
+  font-size: 1.8vh;
+  position: relative;
+  right: -1vh;
+  bottom: -1.5vh;
+  font-weight: 500;
+}
+.tab-blue__box {
+  height: 8vh;
+  width: 8vh;
+  background-color: blue;
+  border-radius: 20%;
+  border: solid;
+}
+.tab-blue__text {
+  height: 8vh;
+  width: 28vh;
+}
+.tab-blue__text__bigtext {
+  font-size: 2.5vh;
+  position: relative;
+  right: -1vh;
+  bottom: -0.7vh;
+  font-weight: 900;
+}
+.tab-blue__text__smalltext {
+  font-size: 1.8vh;
+  position: relative;
+  right: -1vh;
+  bottom: -1.5vh;
+  font-weight: 500;
+}
+.tab-teal__box {
+  height: 8vh;
+  width: 8vh;
+  background-color: teal;
+  border-radius: 20%;
+  border: solid;
+}
+.tab-teal__text {
+  height: 8vh;
+  width: 28vh;
+}
+.tab-teal__text__bigtext {
+  font-size: 2.5vh;
+  position: relative;
+  right: -1vh;
+  bottom: -0.7vh;
+  font-weight: 900;
+}
+.tab-teal__text__smalltext {
+  font-size: 1.8vh;
+  position: relative;
+  right: -1vh;
+  bottom: -1.5vh;
+  font-weight: 500;
+}
