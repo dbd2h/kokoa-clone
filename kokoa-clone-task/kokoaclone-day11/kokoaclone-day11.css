@@ -1,0 +1,225 @@
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigbox {
+  width: 243px;
+  height: 580px;
+  background: linear-gradient(#ffce33 13%, white 0%);
+}
+.first-bar {
+  height: 18px;
+  width: 234px;
+  margin: 22px 4.5px 0 4.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.first-bar > i {
+  cursor: pointer;
+}
+.search-bar {
+  height: 33px;
+  width: 227px;
+  margin-top: 21px;
+  margin-left: 7px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 5px gray;
+  position: relative;
+  top: -7px;
+}
+#text_bar {
+  border: none;
+  background-color: transparent;
+  margin-left: 8px;
+  position: relative;
+  bottom: -3px;
+}
+input:focus {
+  outline: none;
+}
+input[type="text"]::placeholder {
+  color: rgb(192, 192, 192);
+  font-size: 10px;
+}
+input[type="submit"] {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  right: -2px;
+  bottom: -7px;
+}
+label > i {
+  position: relative;
+  right: -23px;
+  bottom: -5px;
+  cursor: pointer;
+  color: rgb(192, 192, 192);
+}
+.daybook {
+  height: 144px;
+  width: 239px;
+  margin-left: 18px;
+}
+.daybook__title {
+  height: 16px;
+  width: 225px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-left: 18px;
+}
+.daybook__box {
+  display: flex;
+}
+.image_nfa {
+  height: 115px;
+  width: 76px;
+  border-radius: 10px;
+}
+.daybook__box-inf {
+  height: 115px;
+  width: 144px;
+  margin-left: 12px;
+}
+.daybook__box-inf-title {
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.daybook__box-inf-author {
+  font-size: 8px;
+  opacity: 0.25;
+}
+.star {
+  font-size: 10px;
+  color: #ffce33;
+  width: 75px;
+  position: relative;
+  right: -3px;
+}
+.daybook__box-inf-star {
+  right: 0;
+}
+.daybook__box-inf-genre {
+  height: 17px;
+  width: 144px;
+  margin-top: 12px;
+  display: flex;
+}
+.genre__journey {
+  width: 50px;
+  height: 17px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  font-size: 5px;
+  text-align: center;
+  margin-right: 4px;
+}
+.genre__Biography {
+  width: 50px;
+  height: 17px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  font-size: 5px;
+  text-align: center;
+}
+.daybook__box-inf-book {
+  height: 23px;
+  width: 144px;
+  margin-top: 14px;
+  display: flex;
+}
+.book__bookmark {
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  background-color: #ffce33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.book__text {
+  height: 16px;
+  width: 72px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 5px;
+  text-align: center;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+  margin-left: 18px;
+  cursor: pointer;
+}
+.top {
+  height: 127px;
+  width: 215px;
+  margin-top: 15px;
+  margin-left: 18px;
+}
+.top__text {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.top__pictures {
+  height: 136px;
+  width: 215px;
+  display: flex;
+  overflow-x: scroll;
+  white-space: wrap;
+}
+.bookimage {
+  width: 65px;
+  height: 100px;
+}
+.top__book {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.popular {
+  height: 125px;
+  width: 225px;
+  margin-top: 50px;
+  margin-left: 18px;
+}
+.popular__title {
+  height: 14px;
+  width: 225px;
+  font-weight: 600;
+}
+.popular__box {
+  margin-top: 17px;
+  height: 93px;
+  width: 225px;
+  display: flex;
+}
+.popularimg {
+  height: 93px;
+  width: 70px;
+  border-radius: 10px;
+}
+.popular__inf {
+  height: 93px;
+  width: 130px;
+  margin-left: 17px;
+}
+.popular__inf-title {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.popular__inf-des {
+  font-size: 9px;
+  opacity: 0.4;
+  position: relative;
+  bottom: -2px;
+}
