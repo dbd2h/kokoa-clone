@@ -1,0 +1,97 @@
+@import "kokoaclone-day12-13.css";
+.playing {
+  height: 579px;
+  width: 269px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0 6px 10px rgb(219, 219, 219);
+}
+.playing-status {
+  height: 22px;
+  width: 225px;
+  margin-top: 29px;
+  display: flex;
+  justify-content: space-between;
+}
+.playing-album {
+  height: 288px;
+  width: 194px;
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.playing-album__album {
+  height: 194px;
+  width: 194px;
+  border-radius: 20px;
+  box-shadow: 0 17px 20px rgb(155, 207, 224);
+}
+.playing-information {
+  height: 55px;
+  margin-top: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.playing-information__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.playing-information__singer {
+  margin-top: 3px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+.playing-times {
+  margin-top: 17px;
+  height: 11px;
+  width: 218px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.playing-times__now {
+  font-size: 12px;
+  opacity: 0.7;
+}
+.playing-times__total {
+  font-size: 12px;
+  opacity: 0.7;
+}
+.playing-playingbar {
+  margin-top: 10px;
+  height: 3.5px;
+  width: 223px;
+}
+.playing-btn {
+  margin-top: 44px;
+  height: 55px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-sync {
+  opacity: 0.2;
+}
+.playing-btn__play {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 10px rgb(185, 185, 185);
+}
+.fa-play {
+  color: white;
+}
+.fa-random {
+  opacity: 0.2;
+}
