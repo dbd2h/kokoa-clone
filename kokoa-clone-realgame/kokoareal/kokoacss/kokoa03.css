@@ -1,0 +1,53 @@
+@import "statusbar.css";
+@import "navigationbar.css";
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+.friend {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Heebo", sans-serif;
+}
+.friend-topbar {
+  height: 73px;
+  width: 92.8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+}
+.friend-topbar__text {
+  font-size: 33px;
+  font-weight: 700;
+}
+.friend-topbar__func {
+  height: 32px;
+  width: 138px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 27px;
+  margin-right: 5px;
+}
+.friend-status {
+  height: 48px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+.friend-status__text {
+  font-size: 18.5px;
+  margin-left: 6px;
+  margin-right: 13px;
+  opacity: 0.9;
+}
+.friend-status > i {
+  font-size: 21px;
+  color: #d5d5d5;
+}
+.friend-status__text + i {
+  font-size: 12px;
+}

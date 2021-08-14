@@ -1,14 +1,16 @@
 @import "reset.css";
 @import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 
 * {
-  font-family: "Nunito", sans-serif;
+  font-family: "Heebo", sans-serif;
   box-sizing: border-box;
 }
 .status-bar {
   display: flex;
   justify-content: space-between;
-  margin: 5px;
+  margin: 7px;
+  font-family: "Heebo", sans-serif;
 }
 .status-bar__service {
   font-weight: 600;

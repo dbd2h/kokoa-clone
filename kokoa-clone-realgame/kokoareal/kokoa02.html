@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="kokoacss/kokoa03.css" />
+    <link rel="stylesheet" href="kokoacss\kokoa02.css" type="text/css" />
     <title>Document</title>
   </head>
   <body>
@@ -33,7 +33,40 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-
+    <div class="login">
+      <div class="login-title">
+        <span class="login-title__bigtext">Welcome to KakaoTalk</span>
+        <span class="login-title__smalltext"
+          >If you have a Kakao Account,<br />
+          log in with your email or phone number.</span
+        >
+      </div>
+      <div class="login-input">
+        <form>
+          <input
+            class="login-input__id"
+            placeholder="Email or phone number"
+            type="text"
+            required
+          />
+          <input
+            class="login-input__password"
+            placeholder="Password"
+            type="password"
+            required
+            minlength="8"
+            maxlength="15"
+          />
+          <input class="login-input__login" type="submit" value="Log In" />
+          <input class="login-input__signup" type="button" value="Sign Up" />
+          <div class="login-input-box">
+            <a href="#" class="login-input__find"
+              >Find Kakao Account or Password
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

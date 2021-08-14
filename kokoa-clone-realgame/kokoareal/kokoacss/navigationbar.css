@@ -1,0 +1,71 @@
+@import "reset.css";
+* {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+}
+.navigationbar {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 11vw;
+  background-color: #f9f9fa;
+}
+.navifont {
+  font-size: 30px;
+  opacity: 0.77;
+}
+.navichat {
+  position: relative;
+}
+.navi__link {
+  color: #2f363e;
+  font-size: 30px;
+  position: relative;
+}
+.navi__link > i {
+  opacity: 0.9;
+}
+.navigationbar-chat__number {
+  height: 24px;
+  width: 24px;
+  background-color: #ff6229;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -5px;
+  right: -15px;
+  font-size: 15px;
+}
+.navigation-setting {
+  height: 20px;
+  width: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-setting__set {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  border: solid 2px;
+  opacity: 0.9;
+}
+.navigationbar-setting__dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #ff6229;
+  position: absolute;
+  top: -6px;
+  right: -5px;
+}
