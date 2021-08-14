@@ -8,13 +8,19 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="statusbar.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span class="status-bar__service">No Service</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
@@ -22,7 +28,7 @@
       </div>
       <div class="status-bar__column">
         <i class="fas fa-lock"></i>
-        <span>11%</span>
+        <span class="status-bar__time">20%</span>
         <i class="fas fa-battery-quarter fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>

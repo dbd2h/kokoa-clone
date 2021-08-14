@@ -1,8 +1,4 @@
 @import "statusbar.css";
-@import "variables.css";
-* {
-  box-sizing: border-box;
-}
 .login {
   display: flex;
   flex-direction: column;
@@ -18,32 +14,35 @@
 }
 .login-title__bigtext {
   font-size: 25px;
+  font-weight: bold;
 }
 .login-title__smalltext {
   margin-top: 34px;
   font-size: 19px;
   text-align: center;
-  opacity: 0.65;
+  opacity: 0.4;
+  font-weight: 600;
 }
 .login-input {
   width: 470px;
   height: 376px;
-  margin-top: 77px;
+  margin-top: 76px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .login-input__id {
   border: none;
-  height: 74px;
+  height: 73px;
   width: 470px;
-  border-bottom: solid 1px;
-  border-color: rgb(0, 0, 0, 0.3);
+  border-bottom: solid 2px;
+  border-color: rgb(0, 0, 0, 0.14);
   transition: border-color 0.3s ease-in-out;
 }
 .login-input__id::placeholder {
-  font-size: 20px;
-  opacity: 0.8;
+  font-size: 22px;
+  opacity: 0.5;
+  font-weight: 600;
 }
 input:focus {
   outline: none;
@@ -53,23 +52,28 @@ input:focus {
 }
 .login-input__password {
   border: none;
-  height: 74px;
+  height: 73px;
   width: 470px;
-  border-bottom: solid 1px;
-  border-color: rgb(0, 0, 0, 0.3);
+  border-bottom: solid 2px;
+  border-color: rgb(0, 0, 0, 0.14);
   transition: border-color 0.3s ease-in-out;
 }
 .login-input__password::placeholder {
-  font-size: 20px;
-  opacity: 0.8;
+  font-size: 22px;
+  opacity: 0.5;
+  font-weight: 600;
 }
 .login-input__login {
   border: none;
-  margin-top: 44px;
+  margin-top: 45px;
   height: 60px;
   width: 470px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.8;
   cursor: pointer;
+  border-radius: 8px;
+  background-color: #f5f5f5;
   transition: background-color 0.3s, color 0.3s ease-in-out;
 }
 .login-input__signup {
@@ -77,8 +81,12 @@ input:focus {
   height: 60px;
   width: 470px;
   margin-top: 16px;
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: 600;
+  opacity: 0.8;
   cursor: pointer;
+  border-radius: 8px;
+  background-color: #f5f5f5;
   transition: background-color 0.3s, color 0.3s ease-in-out;
 }
 .login-input-box {
