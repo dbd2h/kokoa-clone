@@ -1,0 +1,8 @@
+@import "statusbar.css";
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Heebo:wght@600&family=Roboto&display=swap");
+body {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
