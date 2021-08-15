@@ -1,0 +1,24 @@
+.viewscreen-control {
+  position: absolute;
+  top: 0;
+  background-color: cornflowerblue;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  font-size: 40px;
+  color: #0b1c56;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 645px) {
+  .viewscreen-control {
+    display: none;
+  }
+}

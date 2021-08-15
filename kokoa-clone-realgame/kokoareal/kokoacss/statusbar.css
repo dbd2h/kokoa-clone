@@ -1,21 +1,32 @@
 @import "reset.css";
 @import "variables.css";
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+@import "viewpoint.css";
 
 * {
   font-family: "Heebo", sans-serif;
   box-sizing: border-box;
 }
 .status-bar {
-  display: flex;
-  justify-content: space-between;
-  margin: 7px;
+  height: 30px;
+  width: 100vw;
   font-family: "Heebo", sans-serif;
+  position: fixed;
+  display: flex;
+  padding: 10px 10px 0 10px;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+  z-index: 2;
 }
 .status-bar__service {
-  font-weight: 600;
+  font-weight: 500;
+  margin-right: 7px;
 }
 .status-bar__time {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
+  margin: 0 7px;
+}
+.status-bar__column > .fa-bolt {
+  margin-left: 7px;
 }

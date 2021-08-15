@@ -6,6 +6,9 @@
   align-items: center;
   font-family: "Heebo", sans-serif;
 }
+.status-bar {
+  background-color: white;
+}
 .login-title {
   height: 99px;
   width: 390px;
@@ -17,6 +20,7 @@
 .login-title__bigtext {
   font-size: 25px;
   font-weight: bold;
+  color: cornflowerblue;
 }
 .login-title__smalltext {
   margin-top: 34px;
@@ -48,7 +52,7 @@
 }
 input:focus {
   outline: none;
-  border-color: var(--yellow);
+  border-color: cornflowerblue;
   color: transparent;
   text-shadow: 0 0 0 black;
 }
@@ -75,8 +79,9 @@ input:focus {
   opacity: 0.8;
   cursor: pointer;
   border-radius: 8px;
-  background-color: #f5f5f5;
-  transition: background-color 0.3s, color 0.3s ease-in-out;
+  background-color: cornflowerblue;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
 }
 .login-input__signup {
   border: none;
@@ -88,8 +93,9 @@ input:focus {
   opacity: 0.8;
   cursor: pointer;
   border-radius: 8px;
-  background-color: #f5f5f5;
-  transition: background-color 0.3s, color 0.3s ease-in-out;
+  background-color: cornflowerblue;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
 }
 .login-input-box {
   width: 470;
@@ -106,10 +112,8 @@ input:focus {
   opacity: 0.65;
 }
 .login-input__login:hover {
-  background-color: var(--yellow);
-  color: white;
+  background-color: var(--blue);
 }
 .login-input__signup:hover {
-  background-color: var(--yellow);
-  color: white;
+  background-color: var(--blue);
 }
