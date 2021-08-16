@@ -1,0 +1,125 @@
+<html>
+//채팅프로필
+<div class="chatting-topbar">
+        <div class="chatting-topbar__column">
+        <a href="kokoa04.html" class="chatting-topbar-back">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+    </div>
+    <div class="chatting-topbar__column">
+        <span><!--name--></span>
+    </div>
+    <div class="chatting-topbar__column">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
+    </div>
+</div>
+
+
+//시간
+<div class="chatting-timestamp">요일, 월 일, 년</div>
+
+//상대방 카톡
+<div class="chatting-another">
+    <img src="" />
+    <div class="chatting-anobox">
+        <span><!--name--></span>
+        <div class="chatting-anobox__chat">
+            <span class="anochatbox"><!--text--></span>
+            <span class="anotime"><!--time-->(hour:minute:AM/PM)</span>
+        </div>
+    </div>
+</div>
+
+//상대방 이미지
+
+
+
+
+<CSS>
+//채팅프로필
+.chatting-topbar {
+  width: 100vw;
+  padding: 20px 20px 0 20px;
+  height: 100px;
+  display: flex;
+  margin-top: 27px;
+  position: fixed;
+  z-index: 10;
+  background-color: cornflowerblue;
+}
+.chatting-topbar__column > i,
+.chatting-topbar-back > i {
+  font-size: 27px;
+  color: white;
+}
+.chatting-topbar__column > span {
+  font-size: 28px;
+  color: white;
+}
+.chatting-topbar__column:first-child {
+  width: 17%;
+}
+.chatting-topbar__column:nth-child(2) {
+  width: 66%;
+  text-align: center;
+}
+.chatting-topbar__column:last-child {
+  display: flex;
+  justify-content: space-between;
+  width: 17%;
+}
+
+//시간
+.chatting-timestamp {
+  height: 34px;
+  width: 38%;
+  background-color: #92a4b2;
+  font-size: 15px;
+  border-radius: 17px;
+  color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 31%;
+}
+
+//상대방 카톡
+.chatting-another {
+  margin: 20px 0 0 20px;
+  display: flex;
+}
+.chatting-another > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  border: solid rgb(192, 192, 192) 2px;
+}
+.chatting-anobox {
+  margin-left: 8px;
+}
+.chatting-anobox > span {
+  color: var(--blue);
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+.chatting-anobox__chat {
+  display: flex;
+  align-items: flex-end;
+}
+.anochatbox {
+  background-color: rgb(252, 252, 252);
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.anotime {
+  font-size: 15px;
+  color: var(--blue);
+  opacity: 0.8;
+  margin-left: 4px;
+}
+
+//상대방 이미지

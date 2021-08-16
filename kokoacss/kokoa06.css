@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo&family=Heebo:wght@600&family=Roboto&display=swap");
 body {
   -ms-overflow-style: none;
+  margin: 0;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -160,7 +161,7 @@ body {
   font-weight: 500;
   transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
-.find__inf {
+.more__inf {
   height: 44px;
   width: 92.8vw;
   border-top: solid 2px rgb(235, 235, 235);

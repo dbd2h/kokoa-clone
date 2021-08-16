@@ -96,8 +96,24 @@ body {
   position: relative;
   cursor: pointer;
   z-index: 1;
+  text-decoration: none;
+  color: black;
   transition: background 0.2s ease-in-out;
 }
+.chat__box:visited {
+  text-decoration: none;
+}
+.chat__box:hover {
+  text-decoration: none;
+}
+.chat__box:focus {
+  text-decoration: none;
+}
+.chat__box:hover,
+.chat__box:active {
+  text-decoration: none;
+}
+
 .chat__box:hover {
   background-color: rgb(240, 240, 240);
 }
