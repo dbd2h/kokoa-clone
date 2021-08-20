@@ -130,10 +130,6 @@ body {
   animation: chat-moving-ano 0.5s linear forwards;
   animation-delay: 2s;
 }
-.chatting-box > div:nth-child(4) {
-  animation: chat-moving-me 0.5s linear forwards;
-  animation-delay: 3s;
-}
 @keyframes chat-moving-ano {
   0% {
     transform: translateX(-50px);
